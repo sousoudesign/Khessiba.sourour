@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+        </style>
+        <title>Le Groupement Banque Assurance Français</title>
+        <link rel="stylesheet" href="style2.css">
+        
+    </head>
+    <body>
+        <img id="logo" src="https://gbaf.wugenois.com/public/img/logo_gbaf.png" alt="logo de GBAF">
+        <p>Le Groupement Banque Assurance Français</p>
+        
+    <main> 
+        <h1>Connectez-vous</h1>
+        <form method="post" action="index.php?action=connexion">
+
+            <p><label for="username">Nom d'utilisateur : </label><br><input type="text" name="username" id="username" value="" required=""></p>
+
+            <p><label for="pass">Mot de passe : </label><br><input type="password" name="pass" id="pass" required=""></p>
+            <p class="error"></p>
+
+            <p><input type="submit" value="Se connecter"></p>
+            <p>Pas encore de compte ? <a href="index.php?action=register">Inscrivez-vous !</a></p>
+            <a href="index.php?action=forgetpass">Créer un nouveau mot de passe</a>
+        </form>
+    </main>
+    <footer>
+        <p><a href="#">Mentions légales</a> | <a href="#">Contact</a></p>
+    </footer>
+</body>
+</html> 

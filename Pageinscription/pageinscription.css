@@ -1,0 +1,52 @@
+
+body {
+    text-align: center;
+}
+h1 {
+    
+    text-decoration: underline red;
+    text-align: center; color:black;
+}
+
+.form input[type="text"], .form input[type="password"] {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+input[type="text" i] 
+
+form {
+    text-align: center;
+}
+
+main {
+    background-image: linear-gradient(#FFF , #a0c3e5);
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+form {
+    text-align: center;  
+}
+
+span {
+    text-justify: center;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
